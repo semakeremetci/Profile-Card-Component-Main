@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.attribution { font-size: 11px; text-align: center; position: relative; top: 70px; color: orangered;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 59%);
+    background-repeat: no-repeat;
+    background-image: url("/profile-card-component-main/profile-card-component-main/images/bg-pattern-top.svg"),url("/profile-card-component-main/profile-card-component-main/images/bg-pattern-bottom.svg");
+    background-position-x: -345px, 625px;
+    background-position-y: -530px,355px;
+}
+.resim {
+    border-radius: 15px 15px 0 0 ;
+}
+.ust {
+    background-color: hsl(185, 75%, 39%);
+    width: 350px;
+    height: 140px;
+}
+.alt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 15px 20px;
+}
+.kutu {
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 0 0 20px 20px;
+    
+}
+.victor {
+    position: relative;
+    top: 240px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.top {
+    margin-top: 60px;
+}
+
+.name {
+    display: inline;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    
+}
+.age {
+    display: inline;
+    font-weight: 400;
+}
+.city {
+    font-size: 13px;
+    margin: 10px 0 25px 0;
+}
+
+.blok {
+    display: inline-block;
+}
+.stats {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.yazı {
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+hr {
+    color: hsl(227, 10%, 46%);
+    opacity: 0.2;
+}
+
